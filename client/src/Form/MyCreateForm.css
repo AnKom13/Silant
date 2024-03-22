@@ -1,0 +1,41 @@
+.create-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #163E6C;
+    text-align: center;
+    font-family: 'Astra-Sans Regular', Arial, sans-serif;
+}
+
+.error-message {
+    color: #D20A11;
+    text-align: center;
+  }
+
+label {
+    font-family: 'Astra-Sans Bold', Arial, sans-serif;
+}
+
+.form-container{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #163E6C;
+    text-align: center;
+    font-family: 'Astra-Sans Regular', Arial, sans-serif;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #163E6C;
+    text-align: center;
+    font-family: 'Astra-Sans Regular', Arial, sans-serif;
+}

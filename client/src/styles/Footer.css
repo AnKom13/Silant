@@ -1,0 +1,20 @@
+.footer {
+    max-width: 1920px;
+    height: 100px;
+    margin-top: 14px;
+    color: #163E6C;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Astra-Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 360px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

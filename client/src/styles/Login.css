@@ -1,0 +1,17 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Astra-Sans', Arial, sans-serif;
+}
+
+ @media screen and (max-width: 360px) {
+    .login {
+        flex-direction: column;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+} 

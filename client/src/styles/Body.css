@@ -1,0 +1,13 @@
+.body {
+    max-width: 1920px;
+    min-height: auto;
+    margin-top: 14px;
+    color: #D20A11;
+    background-color: #EBE6D6;
+    border-radius: 7px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Astra-Sans', Arial, sans-serif;
+
+}

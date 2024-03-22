@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Astra-Sans Regular';
+    src: url('../assets/PT-Astra-Sans_Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Astra-Sans Bold';
+    src: url('../assets/PT-Astra-Sans_Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Astra-Sans Italic';
+    src: url('../assets/PT-Astra-Sans_Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Astra-Sans Bold-Itali';
+    src: url('../assets/PT-Astra-Sans_Bold-Italic.ttf');
+}
+
+div {
+    padding: 1px;
+}
+h1 {
+    text-align: center;
+
+}
+

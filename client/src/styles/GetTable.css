@@ -1,0 +1,160 @@
+.unauthorizate-body {
+  overflow-x: auto;
+}
+
+.authorizate-body {
+  overflow-x: auto;
+}
+
+.info {
+  text-align: center;
+}
+
+.table-wrapper {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 5px 5px;
+  font-size: 14px;
+  overflow-x: auto;
+}
+
+table {
+  width: 1350px;
+}
+
+thead,
+tbody {
+  width: 100%;
+}
+
+.table th,
+table td {
+  text-align: center;
+  padding: 2px;
+}
+
+.table th {
+  background: #f5d7bf;
+}
+
+.table tr:nth-child(even) {
+  background: #f5d7bf;
+}
+
+.table thead tr th {
+  cursor: pointer;
+}
+
+.modal {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+  border: 2px solid #163E6C;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #163E6C;
+  background: #EBE6D6;
+}
+
+.modal-create {
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+  border: 2px solid #163E6C;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #163E6C;
+  background: #EBE6D6;
+}
+
+.list-modal {
+  width: auto;
+  height: auto;
+  padding: 15px;
+  border-radius: 7px;
+  border: 2px solid #163E6C;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #163E6C;
+  background: #EBE6D6;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  text-align: center
+}
+
+.modal-list-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal-li {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal-title {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions>button {
+  margin-left: 10px;
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .list-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .modal {
+    width: 350px;
+  }
+}

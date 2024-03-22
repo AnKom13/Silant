@@ -1,0 +1,13 @@
+.create-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #163E6C;
+    text-align: center;
+    font-family: 'Astra-Sans', Arial, sans-serif;
+}
+
+.error-message {
+    color: #D20A11;
+    text-align: center;
+  }
